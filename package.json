@@ -1,6 +1,6 @@
 {
   "name": "mesour-selection",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mesour selection component",
   "main": "index.js",
   "devDependencies": {
