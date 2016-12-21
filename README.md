@@ -1,11 +1,11 @@
-[![NPM version](https://img.shields.io/npm/v/mesour-core.svg?style=flat-square)](http://badge.fury.io/js/mesour-core)
+[![NPM version](https://img.shields.io/npm/v/mesour-selection.svg?style=flat-square)](http://badge.fury.io/js/mesour-selection)
 
-# Mesour core
+# Mesour selection component
 
-Mesour core component.
+Mesour selection component.
 
 ## Installation
 
 ```
-$ npm install mesour-core
+$ npm install mesour-selection
 ```
