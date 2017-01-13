@@ -1,4 +1,6 @@
 example
-sass
+.idea
 src
 .npmignore
+webpack.config.js
+webpack.config.min.js
