@@ -62,6 +62,7 @@ export default class Selection
 				instance = $this.data('_m-selection');
 			if (!instance) {
 				instance = new Checker($this, _this.options.item, _this.options);
+				$this.data('_m-selection', instance);
 			}
 		});
 		jQuery(this.options.mainSelector).each(function () {
@@ -69,6 +70,7 @@ export default class Selection
 				instance = $this.data('_m-selection');
 			if (!instance) {
 				instance = new MainChecker($this, _this.options.item, _this.options);
+				$this.data('_m-selection', instance);
 			}
 		});
 		jQuery(this.options.dropDownSelector).each(function () {
@@ -76,6 +78,7 @@ export default class Selection
 				instance = $this.data('_m-selection');
 			if (!instance) {
 				instance = new CheckboxHelper($this, _this.options.item, _this.options);
+				$this.data('_m-selection', instance);
 			}
 		});
 	};
